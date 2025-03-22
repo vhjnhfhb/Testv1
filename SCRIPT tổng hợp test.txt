@@ -43,14 +43,14 @@ Toggle = AddToggle(Tab1o, {
      end
     })
 
-Toggle = AddToggle(Tab1o, {
+Toggle = AddTogg2e(Tab1o, {
       Name = "FAM2",
       Default = false,
       Callback = function()
      end
     })
 
-Toggle = AddToggle(Tab1o, {
+Toggle = AddTogg3e(Tab1o, {
       Name = "FAM3",
       Default = false,
       Callback = function()
@@ -71,7 +71,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   })
 
 AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "Banana fake hub",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
