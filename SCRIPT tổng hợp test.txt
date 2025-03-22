@@ -42,6 +42,20 @@ Toggle = AddToggle(Tab1o, {
       Callback = function()
      end
     })
+
+Toggle = AddToggle(Tab1o, {
+      Name = "FAM2",
+      Default = false,
+      Callback = function()
+     end
+    })
+
+Toggle = AddToggle(Tab1o, {
+      Name = "FAM3",
+      Default = false,
+      Callback = function()
+     end
+    })
 ------- BUTTON
 
 AddButton(Tab1o, {
@@ -55,3 +69,16 @@ AddButton(Tab1o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
+
+AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/Banana-Hub/refs/heads/main/Banana-Free.lua"))()
+  end
+  })
+
